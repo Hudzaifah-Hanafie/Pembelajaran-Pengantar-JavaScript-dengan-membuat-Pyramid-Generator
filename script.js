@@ -24,3 +24,20 @@ console.log(rows);
 console.log(rows[0]);
 rows[2]=10; // change third element value inside array
 console.log(rows);
+rows[rows.length-1]=9; // .length return the number of the element
+console.log(rows);
+
+let cities = [ "London", "New York", "Mumbai" ];
+console.log(cities);
+cities[cities.length-1] = "Mexico City";
+console.log(cities);
+
+rows.push("freeCodeCamp"); // .push used to add value at the end of an array
+console.log(rows);
+
+let popped = rows.pop(); // .pop used to remove the last element and return it
+console.log(popped);
+console.log(rows);
+
+let pushed = rows.push();
+console.log(pushed); // return the new length of the array
